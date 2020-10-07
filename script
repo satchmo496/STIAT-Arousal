@@ -1,9 +1,10 @@
+  
 define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Matthew', //Will appear in the data.
+		    name : 'Test', //Will appear in the data.
 		    title : {
 		      media : {word : 'Matthew'}, //Name of the category presented in the task.
 		      css : {color:'#000000','font-size':'2em'}, //Style of the category title.
@@ -18,42 +19,42 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   		attribute1 : 
 			{
-			name : 'Not Arousing', //Attribute label
+			name : 'Negative', //Attribute label
 			title : {
-				media : {word : 'Not Arousing'}, //Name of the category presented in the task.
+				media : {word : 'Negative'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paper'},
-				{word: 'Knitting'},
-				{word: 'Table'},
-				{word: 'Seat'},
-				{word: 'Butter'},
-				{word: 'Square'},
-        			{word: 'Hairpin'},
-        			{word: 'Broom'}
+				{word: 'Infection'},
+				{word: 'Death'},
+				{word: 'Famine'},
+				{word: 'Headache'},
+				{word: 'Poison'},
+				{word: 'Mosquito'},
+				{word: 'Garbage'},
+				{word: 'Mistake'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Arousing', //Attribute label
+			name : 'Positive', //Attribute label
 			title : {
-				media : {word : 'Arousing'}, //Name of the category presented in the task.
+				media : {word : 'Positive'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Lightning'},
-				{word: 'Noisy'},
-				{word: 'Volcano'},
-				{word: 'Cliff'},
-				{word: 'Explosion'},
-				{word: 'Risk'},
-        			{word: 'Wolf'},
-				{word: 'Stun'}
+				{word: 'Boquet'},
+				{word: 'Melody'},
+				{word: 'Picnic'},
+				{word: 'Heal'},
+				{word: 'Trophy'},
+				{word: 'Sunrise'},
+				{word: 'Waterfall'},
+				{word: 'Sailboat'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
