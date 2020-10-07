@@ -1,10 +1,9 @@
-  
 define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Test', //Will appear in the data.
+		    name : 'Matthew', //Will appear in the data.
 		    title : {
 		      media : {word : 'Matthew'}, //Name of the category presented in the task.
 		      css : {color:'#000000','font-size':'2em'}, //Style of the category title.
@@ -16,45 +15,44 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		    //Stimulus css (style)
 		    css : {color:'#000000','font-size':'3em'}
 		  },	
-
   		attribute1 : 
 			{
-			name : 'Negative', //Attribute label
+			name : 'Not Arousing', //Attribute label
 			title : {
-				media : {word : 'Negative'}, //Name of the category presented in the task.
+				media : {word : 'Not Arousing'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Infection'},
-				{word: 'Death'},
-				{word: 'Famine'},
-				{word: 'Headache'},
-				{word: 'Poison'},
-				{word: 'Mosquito'},
-				{word: 'Garbage'},
-				{word: 'Mistake'}
+				{word: 'Paper'},
+				{word: 'Knitting'},
+				{word: 'Table'},
+				{word: 'Seat'},
+				{word: 'Butter'},
+				{word: 'Square'},
+        			{word: 'Hairpin'},
+        			{word: 'Broom'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Positive', //Attribute label
+			name : 'Arousing', //Attribute label
 			title : {
-				media : {word : 'Positive'}, //Name of the category presented in the task.
+				media : {word : 'Arousing'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Boquet'},
-				{word: 'Melody'},
-				{word: 'Picnic'},
-				{word: 'Heal'},
-				{word: 'Trophy'},
-				{word: 'Sunrise'},
-				{word: 'Waterfall'},
-				{word: 'Sailboat'}
+				{word: 'Lightning'},
+				{word: 'Noisy'},
+				{word: 'Volcano'},
+				{word: 'Cliff'},
+				{word: 'Explosion'},
+				{word: 'Risk'},
+        			{word: 'Wolf'},
+				{word: 'Stun'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -62,6 +60,3 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   base_url : {//Where are your images at?
     image : 'https://baranan.github.io/minno-tasks/images/'
-  }}
-  );
-  });
