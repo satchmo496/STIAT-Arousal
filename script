@@ -25,7 +25,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 			}, 
 			media : [ //Stimuli
 				{word: 'Paper'},
-				{word: 'Knitting'},
+				{word: 'Pillow'},
 				{word: 'Table'},
 				{word: 'Seat'},
 				{word: 'Butter'},
@@ -48,10 +48,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'Lightning'},
 				{word: 'Noisy'},
 				{word: 'Volcano'},
-				{word: 'Cliff'},
+				{word: 'Intense'},
 				{word: 'Explosion'},
-				{word: 'Crocodile'},
-        			{word: 'Wolf'},
+				{word: 'Vivid'},
+        			{word: 'Eruption'},
 				{word: 'Frenzy'}
 			], 
 			//Can change color and size of the targets here.
